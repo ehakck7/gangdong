@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(sublayout.css);
+@import url(footer.css);
+
+/* content */
+.content{width: 810px; padding: 30px 60px; background: #fafafa;}
+
+/* notice */
+.notice{width: 766px; height: 271px; margin-bottom: 45px; padding: 15px; border: 7px solid #ff9000; background: #fff;}
+.notice li{margin-top: 30px;}
+.notice li.m0{margin-top: 0;}
+.notice li a{padding-left: 13px; font-weight: bold; background: url(../images/sub-btn.gif) no-repeat 0 3px;}
+.notice li p{margin-top: 15px; font-size: 14px;}
+.notice li p span{font-size: 12px; color: #595959;}
+.notice li p strong{color: #ff9000;}
+
+/* board */
+.board{width: 810px; padding-bottom: 15px; background: #fff;}
+.boardfrm{height: 60px; border-top: 1px solid #d9d9d9; line-height: 60px; text-align: center;}
+.boardfrm input[type="text"]{width: 245px; height: 18px; border: 1px solid #d9d9d9; font-size: 13px;}
+.boardsearch{width: 43px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
+.boardright{width: 56px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
+
+/* board-t */
+.board-t{width: 810px; margin-bottom: 15px; font-size: 14px;}
+.board-t thead tr{height: 37px;}
+.board-t thead tr th{border-top: 2px solid #ff9000; border-bottom: 1px solid #c8c8c8;}
+.board-t tbody tr{height: 28px;}
+.board-t tbody tr td{border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9; text-align: center;}
+.board-t tbody tr td:first-child{border-left: none;}
+.board-t tbody tr .tdleft{padding-left: 10px; text-align: left;}
+.board-t tbody tr td .file{padding-right: 15px; background: url(../images/board-icon.png) no-repeat right 2px;}
+
+/* boardpage */
+.boardpage{width: 810px;}
+.boardpageul{overflow: hidden; width: 390px; margin: 0 auto;}
+.boardpageul .boardbtn{padding: 0 5px; background: none;}
+.boardpageul li{float: left; height: 20px; padding: 0 10px; line-height: 20px; background: url(../images/board-bg.png) no-repeat 0 4px;}
+.boardpageul li.bgn{background: none;}
+.boardpageul li .choice{font-size: 14px; font-weight: bold; color: #ff9000;}
+.boardpageul li a{font-size: 14px;}

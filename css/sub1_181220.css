@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(sublayout.css);
+@import url(footer.css);
+
+/* content */
+.content{width: 810px; padding: 30px 60px; background: #fafafa;}
+/* contfrm */
+.contfrm{width: 790px; height: 38px; margin-bottom: 30px; padding-right: 20px; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
+.totalsearchfrm{font-size: 14px; text-align: right; line-height: 38px;}
+.totalsearchfrm select{width: 105px; height: 20px;}
+.totalsearchfrm .name{width: 70px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.totalsearchfrm .work{width: 125px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.totalsearchfrm .totalsearch{width: 70px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
+
+/* conttable */
+.conttable{width: 810px;}
+.conttable dt{margin-bottom: 30px; padding-left: 13px; font-weight: bold; background: url(../images/sub-btn.gif) no-repeat left 3px;}
+.conttable table{width: 810px; margin-bottom: 30px; font-size: 15px; text-align: center;}
+.conttable table thead tr{height: 37px; background: #f7f7f7;}
+.conttable table thead tr th{border-top: 2px solid #ababab; border-bottom: 1px solid #d9d9d9;}
+
+.conttable table tbody tr{height: 19px;  background: #fff;}
+.conttable table tbody tr td{border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9;}
+.conttable table tbody tr td:first-child{border-left: none;}
+.conttable table tbody tr .txtl{padding: 10px 0 10px 10px; text-align: left;}
+
+/* satis */
+.satiswrap{width: 768px; height: 53px; padding: 15px 20px; border: 1px solid #d9d9d9; font-size: 14px; background: #fff;}
+.satisfrm{width: 768px; height: 53px;}
+.satisfrm p{float: left; margin-right: 20px; font-weight: bold; color: #ff9000;}
+.satisfrm input[type="submit"]{position: absolute; right:0; top:0; width: 70px; height: 24px; border: none; font-size: 14px; color: #fff; background: #ff9000;}
+
+.satis,
+.opinion{overflow: hidden; position: relative; width: 768px; height: 24px; line-height: 24px;}
+.satis{margin-bottom: 5px;}
+.satis label{margin-right: 15px;}
+.opinion input[type="text"]{width: 493px; height: 19px; padding-left: 5px; border: 1px solid #d9d9d9; font-size: 12px;}
+
+.satis input[type="submit"],
+.opinion input[type="submit"]{cursor: pointer;}
+
+
+

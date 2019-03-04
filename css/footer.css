@@ -1,0 +1,14 @@
+@charset "utf-8";
+#footerwrap{position:relative; width: 100%;}
+.footermenu{width: 100%; height: 43px; border-top: 1px solid #959595; border-bottom: 1px solid #959595;}
+.footerulwrap{width: 1200px; margin: 0 auto;}
+.footerul{overflow: hidden; width: 660px; margin: 0 auto; line-height: 43px;}
+.footerul li{float: left; margin-left: 80px;}
+.footerul li.footerulm0{margin-left: 0;}
+.footerul li a{font-size: 14px;}
+
+.footer{overflow: hidden; width: 1200px; height: 101px; margin: 0 auto; padding: 67px 0; font-size: 12px; text-align: center;}
+.footer-logo{float:left}
+.footer-txtwrap{float: left; width: 960px;}
+.copy{margin: 10px auto 0 auto;}
+.footer-wa{float: right;}

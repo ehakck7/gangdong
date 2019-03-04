@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&subset=korean');
+/* 기본 reset */
+body, h1, h2, h3, h4, a, form, fieldset, legend, select, option, label, input, ul, li, div, p, img, address, table, caption, colgroup, col, tr, th, td, tbody, thead, dl, dt, dd, span, strong{margin: 0; padding: 0;}
+body, input{font-family: 'Nanum Gothic', '나눔고딕', '돋움', dotum, sans-serif; font-size: 18px; color: #333;}
+ul, dl{list-style: none;}
+img, fieldset{border: none;}
+address{font-style: normal;}
+table{border-collapse: collapse;}
+img, input, select{vertical-align: middle;}
+a:link, a:visited{text-decoration: none; color: #333;}
+a:hover, a:active, a:focus{text-decoration: underline; color: #333;}
+.skip, legend, caption{overflow: hidden; visibility: hidden; position: absolute; left: -999px; width: 1px; height: 1px; font-size: 0; line-height: 0;}
+
+/* skip navigation */
+#skipmenu{position: absolute; width: 100%; z-index: 9999;}
+#skipmenu a{position: absolute; top: -100px;}
+#skipmenu a:hover,
+#skipmenu a:active,
+#skipmenu a:focus{display: block; position: absolute; top: 0; width: 100%; padding: 10px 0; text-align: center; color: #fff; background: #ff9000;}

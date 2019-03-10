@@ -16,7 +16,7 @@
 
 /* loginfrm */
 .loginfrm{width: 810px;}
-.loginwrap{overflow: hidden; width: 600px; height: 224px; margin-bottom: 15px; padding-top: 123px; padding-left: 210px; border-top: 2px solid #ff9000; border-bottom: 1px solid #ff9000; background: url(../images/sub-login-bg.png) no-repeat 40px 106px #fff;}
+.loginwrap{overflow: hidden; width: 600px; height: 224px; margin-bottom: 15px; padding: 123px 0 0 210px; border-top: 2px solid #ff9000; border-bottom: 1px solid #ff9000; background: url(../images/sub-login-bg.png) no-repeat 40px 106px #fff;}
 
 .login-l{float: left; width: 405px; margin-right: 10px;}
 .login-l label{padding-right: 15px; font-size: 24px; font-weight: bold;}

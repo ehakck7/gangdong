@@ -16,14 +16,15 @@
 </head>
 <body>
 	<!-- skip navigation -->
-	<div id="skipmenu">
+	<div class="skipnavi">
 		<a href="#container">본문 바로가기</a>
 		<a href="#gnb">주메뉴 바로가기</a>
 	</div>
-	<div id="wrapper">
-		<!-- headerwrap-s -->
-		<div id="headerwrap"> <!-- w100% -->
-			<div class="header"> <!-- w1200px -->
+	<!-- // skip navigation -->
+	<div id="wrap" class="wrap">
+		<!-- header-wrap -->
+		<div id="header-wrap" class="header-wrap"> 
+			<div class="header">
 				<h1><a href="index.html"><img src="images/logo.png" alt="강동구보건소" /></a></h1>
 				<form method="post" action="#" name="searchfrm" class="searchfrm">
 					<fieldset>
@@ -48,9 +49,9 @@
 				</ul>
 			</div>
 			<!-- gnb-s -->
-			<div id="gnb"> <!-- w100% -->
+			<div id="gnb">
 				<h2 class="skip">주메뉴</h2>
-				<ul class="gnbmenu" id="gnbmenu"> <!-- w1200px -->
+				<ul class="gnbmenu" id="gnbmenu">
 					<li class="sub1">
 						<a href="subpage4.html">진료안내</a>
 						<ul class="submenu">
@@ -148,13 +149,13 @@
 			</div>
 			<!-- gnb-e -->
 		</div>
-		<!-- headerwrap-e -->
+		<!-- // header-wrap -->
 
-		<!-- container-s -->
-		<div id="container"> <!-- w100% -->
-			<!-- m-imgwrap-s -->
-			<div class="m-imgwrap"> <!-- w100% -->
-				<div class="m-img"> <!-- w1200px -->
+		<!-- container -->
+		<div id="container" class="container"> 
+			<!-- m-imgwrap -->
+			<div class="m-imgwrap">
+				<div class="m-img">
 					<h2 class="skip">메인배너</h2>              
 					<ul class="m-slide" id="m-slide">
 						<li class="on">
@@ -176,10 +177,10 @@
 					</ul> 
 				</div>
 			</div>
-			<!-- m-imgwrap-e -->
-			<!-- quickmenu-s -->
-			<div class="quickmenuwrap"> <!-- w100% -->
-				<div class="quickmenu"> <!-- w1200px -->
+			<!-- // m-imgwrap -->
+			<!-- quickmenu -->
+			<div class="quickmenu-wrap">
+				<div class="quickmenu">
 					<h3 class="icon1">자주찾는<br />메뉴</h3>
 					<ul class="quickmenuul"> 
 						<li><a href="#" class="icon2">건강상담</a></li>
@@ -193,17 +194,17 @@
 					</ul>
 				</div>
 			</div>
-			<!-- quickmenu-e -->
-			<!-- content-s -->
-			<div class="content"> <!-- w1200px -->
-				<!-- content-top-s -->
+			<!-- // quickmenu -->
+			<!-- content -->
+			<div class="content">
+				<!-- content-top -->
 				<div class="content-top">
-					<!-- notice-s -->
-					<div class="notice"> <!-- w795px -->
-						<ul class="noticeul" id="noticeul">
+					<!-- notice -->
+					<div class="notice">
+						<ul id="notice-list" class="notice-list">
 							<li class="on">
 								<h3><a href="#" class="notice-eff">새소식</a></h3>
-								<div class="subwrap">
+								<div class="sub-wrap">
 									<dl class="notice-top notice-bg1">
 										<dt><a href="#">2018 서울가족학교 "아동기 부모교실" 프로그램 안내</a></dt>
 										<dd>
@@ -222,7 +223,7 @@
 							</li>
 							<li>
 								<h3><a href="#" class="notice-eff">고시/공고</a></h3>
-								<div class="subwrap">
+								<div class="sub-wrap">
 									<dl class="notice-top notice-bg2">
 										<dt><a href="#">지방세 체납 압류 자동차 공매 공고</a></dt>
 										<dd>
@@ -240,7 +241,7 @@
 							</li>
 							<li>
 								<h3><a href="#" class="notice-eff">건강정보</a></h3>
-								<div class="subwrap">
+								<div class="sub-wrap">
 									<dl class="notice-top notice-bg3">
 										<dt><a href="#">'치아교정시 치과 선택방법' 안내</a></dt>
 										<dd>
@@ -258,7 +259,7 @@
 							</li>
 							<li>
 								<h3><a href="#" class="notice-eff">약품안전성정보</a></h3>
-								<div class="subwrap">
+								<div class="sub-wrap">
 									<dl class="notice-top notice-bg4">
 										<dt><a href="#">의약품 안전성 서한(발사르탄 제제 추가)</a></dt>
 										<dd>
@@ -277,9 +278,9 @@
 							</li>
 						</ul>
 					</div>
-					<!-- notice-e -->
-					<!-- working-s -->
-					<div class="working"> <!-- w390px -->
+					<!-- // notice -->
+					<!-- working -->
+					<div class="working">
 						<h3>근무시간 안내</h3>
 						<p class="working-txt">
 							근무시간 : 09:00~18:00(월~금)<br />	
@@ -290,35 +291,35 @@
 							<strong>(직장인 임산부 대상 예약제)</strong>
 						</p>
 					</div> 
-					<!-- working-e -->
+					<!-- // working -->
 				</div>
-				<!-- content-top-e -->
-				<!-- content-mid-s -->
+				<!-- // content-top -->
+				<!-- content-mid -->
 				<div class="content-mid">
-					<!-- slide-banner-s -->
-					<div class="slide-banner"> <!-- w390px -->
+					<!-- slide-banner -->
+					<div class="slide-banner">
 						<h3>보건소 알리미</h3>
-						<div class="slide-bannerul-wrap">
-							<ul class="slide-bannerul" id="slide-bannerul">
+						<div class="slide-banner-list-wrap">
+							<ul id="slide-banner-list" class="slide-banner-list">
 								<li><a href="#" title="새창이동" target="_blank"><img src="images/banner1.png" alt="매년 3월 24일은 결핵예방의 날입니다. 어린이집 및 사회복지시설 종사자 결핵예방 교육자료" /></a></li>
 								<li><a href="#" title="새창이동" target="_blank"><img src="images/banner2.png" alt="해외장기체류자 귀국시 예방접종증명서 지참 관련 공지사항 해외에서 받은 자녀의 예방접종증명서 귀국시 발급받아 오세요. 자세히보기" /></a></li>
 								<li><a href="#" title="새창이동" target="_blank"><img src="images/banner3.png" alt="보건복지부 국민건강보험 1회용 주사기등 재사용 의심 의료기관 신고하세요 전화문의 국번없이 129" /></a></li>
 								<li><a href="#" title="새창이동" target="_blank"><img src="images/banner4.png" alt="열린보건소 운영안내 자세히보기" /></a></li>
 							</ul>
 						</div>
-						<div class="slide-banner-btn" id="slide-banner-btn">
+						<div id="slide-banner-btn" class="slide-banner-btn">
 							<a href="#"><img src="images/slidebtn-prev.png" alt="보건소 알리미 이전보기" onclick="slideprev();return false;"/></a>
 							<a href="#"><img src="images/slidebtn-stop.png" alt="보건소 알리미 멈추기" onclick="slidestop();return false;"/></a>
 							<a href="#"><img src="images/slidebtn-play.png" alt="보건소 알리미 시작하기" onclick="slideplay();return false;"/></a>
 							<a href="#"><img src="images/slidebtn-next.png" alt="보건소 알리미 다음보기" onclick="slidenext();return false;"/></a>
 						</div>
 					</div>
-					<!-- slice-banner-e -->
-					<!-- link-list-s -->
-					<div class="link-list"> <!-- w795px -->
+					<!-- // slice-banner -->
+					<!-- link-list -->
+					<div class="link-list">
 						<h2 class="skip">link list</h2>
 						<ul class="link-listul">
-							<li class="link1"> <!-- w390px -->
+							<li class="link1">
 								<h3>인허가 민원안내</h3>
 								<a href="#" title="인허가 민원안내 ">바로가기 </a>
 							</li> 
@@ -336,12 +337,13 @@
 							</li>
 						</ul>
 					</div>
-					<!-- link-list-e -->
+					<!-- // link-list -->
 				</div>
-				<!-- content-bot-s -->
-				<div class="content-bot"> <!-- w1200px -->
+				<!-- // content-mid -->
+				<!-- content-bot -->
+				<div class="content-bot">
 					<h2 class="skip">관련 사이트 링크</h2>
-					<dl class="cont-list cont-listm0"> <!-- w390px -->
+					<dl class="cont-list cont-listm0">
 						<dt class="cont-title">강동구민</dt>
 						<dd class="cont-sublistwrap">
 							<dl class="cont-sublist">
@@ -434,9 +436,9 @@
 						</dd>
 					</dl>
 				</div>
-				<!-- content-bot-e -->
-				<!-- banner-s -->
-				<div class="banner"> <!-- w1200px -->
+				<!-- // content-bot -->
+				<!-- banner -->
+				<div class="banner">
 					<h2 class="skip">배너 사이트 링크</h2>
 					<div class="bannerbtn">
 						<a href="#" onclick="bannerprev();return false;"><img src="images/bottom-btn-prev.jpg" alt="사이트 배너 이전보기" /></a>
@@ -444,7 +446,7 @@
 						<a href="#" onclick="bannerplay();return false;" id="bannerplay" class="banneroff" ><img src="images/bottom-btn-play.jpg" alt="사이트 배너 재생"/></a>
 						<a href="#" onclick="bannernext();return false;"><img src="images/bottom-btn-next.jpg" alt="사이트 배너 다음보기" /></a>
 					</div>
-					<div class="b-imgwrap"> <!-- w1200px -->
+					<div class="b-imgwrap">
 						<ul class="b-imgul" id="b-imgul">
 							<li><a href="#" target="_blank" title="새창이동"><img src="images/bottom-banner-icon1.gif" alt="마약류통합관리시스템 www.nims.or.kr 상담전화:1670-6721" /></a></li>
 							<li><a href="#" target="_blank" title="새창이동"><img src="images/bottom-banner-icon2.gif" alt="pharm114 휴일지킴이약국" /></a></li>
@@ -460,18 +462,18 @@
 						</ul>
 					</div>
 				</div>
-				<!-- banner-e -->
+				<!-- // banner -->
 			</div>
-			<!-- content-e -->
+			<!-- // content -->
 		</div>
-		<!-- container-e -->
+		<!-- // container -->
 
-		<!-- footer-s -->
-		<div id="footerwrap"> <!-- w100% -->
-			<div class="footermenu"> <!-- w100% -->
-				<div class="footerulwrap"> <!-- w1200px -->
-					<ul class="footerul"> 
-						<li class="footerulm0"><a href="#">이메일무단수집거부</a></li>
+		<!-- footer -->
+		<div id="footer-wrap"> 
+			<div class="footer-menu"> 
+				<div class="footer-list-wrap">
+					<ul class="footer-list"> 
+						<li class="footer-listm0"><a href="#">이메일무단수집거부</a></li>
 						<li><a href="#">개인정보처리방침</a></li>
 						<li><a href="#">찾아오시는길</a></li>
 						<li><a href="#">보건소층별안내</a></li>
@@ -488,7 +490,7 @@
 				<p class="footer-wa"><img src="images/footer-icon2.png" alt="웹접근성-미래창조과학부" /></p>
 			</div>
 		</div>
-		<!-- footer-e -->
+		<!-- // footer -->
 	</div>
 </body>
 </html>

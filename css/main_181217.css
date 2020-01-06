@@ -26,7 +26,7 @@
 .m-circle li:first-child{margin-right: 15px;} 
 
 /* quickmenu */
-.quickmenuwrap{width: 100%; margin-bottom: 15px; background: #fca330;}
+.quickmenu-wrap{width: 100%; margin-bottom: 15px; background: #fca330;}
 .quickmenu{overflow: hidden; width: 1200px; height: 140px; margin: 0 auto;}
 .quickmenu .icon1{float: left; width: 120px; height: 140px; padding-top: 65px; line-height: 1.2; text-align: center; color: #fff; background: url(../images/favorites1.png) no-repeat 45px 26px #ff9000;}
 
@@ -49,18 +49,18 @@
 
 /* notice w-795px; h-372px; */
 .notice{position: relative; float: left; width: 735px; height: 312px; margin-right: 15px; padding: 30px; background: #fff;}
-.noticeul{overflow: hidden;}
-.noticeul > li{float: left;}
-.noticeul li.on .subwrap{display: block;}
-.noticeul li.on .notice-bottom{display: block;}
-.noticeul li.on .notice-more{display: block;}
-.noticeul li.on .notice-eff{border-bottom: 2px solid #d9d9d9; color: #fff; background: #ff9000;}
+.notice-list{overflow: hidden;}
+.notice-list > li{float: left;}
+.notice-list li.on .sub-wrap{display: block;}
+.notice-list li.on .notice-bottom{display: block;}
+.notice-list li.on .notice-more{display: block;}
+.notice-list li.on .notice-eff{border-bottom: 2px solid #d9d9d9; color: #fff; background: #ff9000;}
 
-.noticeul li h3{text-align: center;}
-.noticeul li h3 a{display: block; width: 140px; height: 45px; font-size: 18px; text-decoration: none;}
-.noticeul li .notice-eff{height: 43px; line-height: 43px;}
+.notice-list li h3{text-align: center;}
+.notice-list li h3 a{display: block; width: 140px; height: 45px; font-size: 18px; text-decoration: none;}
+.notice-list li .notice-eff{height: 43px; line-height: 43px;}
 
-.subwrap{display: none; position: absolute; top: 77px; left: 30px;}
+.sub-wrap{display: none; position: absolute; top: 77px; left: 30px;}
 .notice-bg1{background: url(../images/notice-icon1.png) no-repeat 0 40px;}
 .notice-bg2{background: url(../images/notice-icon2.png) no-repeat 0 40px;}
 .notice-bg3{background: url(../images/notice-icon3.png) no-repeat 0 40px;}
@@ -87,11 +87,11 @@
 /* slide-banner */
 .slide-banner{position: relative; float: left; width: 330px; height: 312px; margin-right: 15px; padding: 30px; background: #fff;}
 .slide-banner h3{height: 30px; margin-bottom: 10px; line-height: 30px;}
-.slide-bannerul-wrap{overflow: hidden; position:relative; width: 330px; height: 262px;}
-.slide-bannerul{position:absolute; top: 0; left: 0; width: 1320px; height: 262px;}
-.slide-bannerul li{float: left; width: 330px; height: 262px;}
-.slide-banner-btn{position: absolute; top: 30px; right: 30px;}
-.slide-banner-btn a{margin: -2px;}
+.slide-banner-list-wrap{overflow: hidden; position:relative; width: 330px; height: 262px;}
+.slide-banner-list{position:absolute; top: 0; left: 0; width: 1320px; height: 262px;}
+.slide-banner-list li{float: left; width: 330px; height: 262px;}
+.slide-banner-btn{position: absolute; top: 30px; right: 30px; width: 107px;}
+.slide-banner-btn a{margin: -3px;}
 
 /* link-list */
 .link-list{float: left; width: 795px; height: 372px;}

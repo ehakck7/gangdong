@@ -85,7 +85,7 @@ function noticemenu(num){
 }
 
 function noticeit(){
-	notice=document.getElementById('noticeul').getElementsByTagName('li');
+	notice=document.getElementById('notice-list').getElementsByTagName('li');
 	for(x=0; x<notice.length; x++){
 		notice[x].ntc=x;
 		notice[x].onclick=function(){
@@ -102,7 +102,7 @@ var stime;
 var slidebtn;
 
 function slideprev(){
-	var slidebanner=document.getElementById('slide-bannerul')
+	var slidebanner=document.getElementById('slide-banner-list')
 	var slidebannerli=slidebanner.getElementsByTagName('li')
 
 	isnum--
@@ -118,7 +118,7 @@ function slideplay(){
 	stime=setInterval(slidenext, 2000);
 }
 function slidenext(){
-	var slidebanner=document.getElementById('slide-bannerul')
+	var slidebanner=document.getElementById('slide-banner-list')
 	var slidebannerli=slidebanner.getElementsByTagName('li')
 
 	isnum++

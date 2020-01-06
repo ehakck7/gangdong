@@ -20,5 +20,5 @@
 
 깨달은 점 :
 1. ie7에서 script를 동작하게 하느라 시간을 많이 허비하였다 (getAttribute, classList등 동작하지 않음)
-- className을 활용하여 ie7까지 맞춤
+   ㄴ className을 활용하여 ie7까지 맞춤
 

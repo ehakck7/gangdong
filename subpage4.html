@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="css/sub4_181227.css" type="text/css" />
 	<script src="js/subpage.js" type="text/javascript"></script>
 	<script src="js/gnb_190201.js" type="text/javascript"></script>
-	<script src="js/login.js" type="text/javascript"></script>
 </head>
 <body>
 	<!-- skip navigation -->
@@ -155,12 +154,12 @@
 		<div id="container"> <!-- w1200px -->
 			<div class="lnb"> <!-- w255px -->
 				<h2>강동구 회원</h2>
-				<ul class="lnbul" id="lnbul">
+				<ul class="lnb-list" id="lnb-list">
 					<li class="lnb-on"><a href="#">로그인</a></li>
 					<li><a href="#">회원가입</a></li>
 					<li>
 						<a href="#">아이디/비밀번호 찾기</a>
-						<ul class="sublnbul">
+						<ul class="sublnb-list">
 							<li><a href="#">아이디 찾기</a></li>
 							<li><a href="#">비밀번호 찾기</a></li>
 						</ul>
@@ -168,7 +167,7 @@
 					<li><a href="#">개인정보처리방침</a></li>
 					<li>
 						<a href="#">이용약관</a>
-						<ul class="sublnbul">
+						<ul class="sublnb-list">
 							<li><a href="#">회원 이용약관</a></li>
 							<li><a href="#">가입시 주의사항</a></li>
 							<li><a href="#">개인정보처리방침</a></li>
@@ -256,5 +255,22 @@
 		</div>
 		<!-- footer-e -->
 	</div>
+	<script>
+		function login(){
+			var loginid=document.getElementsByName('loginid')[0];
+			var loginpass=document.getElementsByName('loginpass')[0];
+			loginid.onclick=function(){
+				if(this.value == '아이디를 입력해주세요'){
+					this.value='';
+				}
+			}
+			loginpass.onclick=function(){
+				if(this.value == '비밀번호를 입력해주세요'){
+					this.value='';
+				}
+			}
+		}
+		login()
+	</script>
 </body>
 </html>

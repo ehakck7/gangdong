@@ -3,7 +3,7 @@
 @import url(header.css);
 @import url(footer.css);
 
-#container{position: relative; width: 100%; padding-bottom: 30px; background: #f2f2f2;}
+.container{position: relative; width: 100%; padding-bottom: 30px; background: #f2f2f2;}
 
 /* m-imgwrap */
 .m-imgwrap{width: 100%; background: #dfdfdf;}
@@ -124,14 +124,14 @@
 
 /* banner */
 .banner{float: left; width: 1140px; height: 38px; padding: 19px 30px; background: #fff;}
-.bannerbtn{float: left; width: 110px; margin-right: 30px; padding-top: 3px;}
-.bannerbtn a{margin: -2px;}
-.bannerbtn a.banneroff{display: none;}
+.btn-banner{float: left; width: 110px; margin-right: 30px; padding-top: 3px;}
+.btn-banner a{margin: -2px;}
+.btn-banner a.banneroff{display: none;}
 
-.b-imgwrap{overflow: hidden; position:relative; width: 1000px; height:38px}
-.b-imgul{position:absolute; top:0; left:0; width: 1670px;}
-.b-imgul li{float: left; padding-left: 25px;}
-.b-imgul li:first-child{padding-left: 0;}
+.b-img-wrap{overflow: hidden; position:relative; width: 1000px; height:38px}
+.b-img-list{position:absolute; top:0; left:0; width: 1670px;}
+.b-img-list li{float: left; padding-left: 25px;}
+.b-img-list li:first-child{padding-left: 0;}
 
 /* 
 	color

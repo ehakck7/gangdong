@@ -30,14 +30,14 @@
 .board-t tbody tr{height: 28px;}
 .board-t tbody tr td{border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9; text-align: center;}
 .board-t tbody tr td:first-child{border-left: none;}
-.board-t tbody tr .tdleft{padding-left: 10px; text-align: left;}
+.board-t tbody tr .td-left{padding-left: 10px; text-align: left;}
 .board-t tbody tr td .file{padding-right: 15px; background: url(../images/board-icon.png) no-repeat right 2px;}
 
 /* boardpage */
 .boardpage{width: 810px;}
-.boardpageul{overflow: hidden; width: 390px; margin: 0 auto;}
-.boardpageul .boardbtn{padding: 0 5px; background: none;}
-.boardpageul li{float: left; height: 20px; padding: 0 10px; line-height: 20px; background: url(../images/board-bg.png) no-repeat 0 4px;}
-.boardpageul li.bgn{background: none;}
-.boardpageul li .choice{font-size: 14px; font-weight: bold; color: #ff9000;}
-.boardpageul li a{font-size: 14px;}
+.boardpage-list{overflow: hidden; width: 390px; margin: 0 auto;}
+.boardpage-list .btn-board{padding: 0 5px; background: none;}
+.boardpage-list li{float: left; height: 20px; padding: 0 10px; line-height: 20px; background: url(../images/board-bg.png) no-repeat 0 4px;}
+.boardpage-list li.bgn{background: none;}
+.boardpage-list li .choice{font-size: 14px; font-weight: bold; color: #ff9000;}
+.boardpage-list li a{font-size: 14px;}

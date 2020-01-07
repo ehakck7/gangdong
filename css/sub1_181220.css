@@ -6,25 +6,25 @@
 
 /* content */
 .content{width: 810px; padding: 30px 60px; background: #fafafa;}
-/* contfrm */
-.contfrm{width: 790px; height: 38px; margin-bottom: 30px; padding-right: 20px; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
-.totalsearch-frm{font-size: 14px; text-align: right; line-height: 38px;}
-.totalsearch-frm select{width: 105px; height: 20px;}
-.totalsearch-frm .name{width: 70px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
-.totalsearch-frm .work{width: 125px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
-.totalsearch-frm .totalsearch{width: 70px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
+/* cont-frm */
+.cont-frm{width: 790px; height: 38px; margin-bottom: 30px; padding-right: 20px; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
+.total-search-frm{font-size: 14px; text-align: right; line-height: 38px;}
+.total-search-frm select{width: 105px; height: 20px;}
+.total-search-frm .name{width: 70px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.total-search-frm .work{width: 125px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.total-search-frm .totalsearch{width: 70px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
 
-/* conttable */
-.conttable{width: 810px;}
-.conttable dt{margin-bottom: 30px; padding-left: 13px; font-weight: bold; background: url(../images/sub-btn.gif) no-repeat left 3px;}
-.conttable table{width: 810px; margin-bottom: 30px; font-size: 15px; text-align: center;}
-.conttable table thead tr{height: 37px; background: #f7f7f7;}
-.conttable table thead tr th{border-top: 2px solid #ababab; border-bottom: 1px solid #d9d9d9;}
+/* cont-table */
+.cont-table{width: 810px;}
+.cont-table dt{margin-bottom: 30px; padding-left: 13px; font-weight: bold; background: url(../images/sub-btn.gif) no-repeat left 3px;}
+.cont-table table{width: 810px; margin-bottom: 30px; font-size: 15px; text-align: center;}
+.cont-table table thead tr{height: 37px; background: #f7f7f7;}
+.cont-table table thead tr th{border-top: 2px solid #ababab; border-bottom: 1px solid #d9d9d9;}
 
-.conttable table tbody tr{height: 19px;  background: #fff;}
-.conttable table tbody tr td{border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9;}
-.conttable table tbody tr td:first-child{border-left: none;}
-.conttable table tbody tr .txtl{padding: 10px 0 10px 10px; text-align: left;}
+.cont-table table tbody tr{height: 19px;  background: #fff;}
+.cont-table table tbody tr td{border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9;}
+.cont-table table tbody tr td:first-child{border-left: none;}
+.cont-table table tbody tr .txtl{padding: 10px 0 10px 10px; text-align: left;}
 
 /* satis */
 .satiswrap{width: 768px; height: 53px; padding: 15px 20px; border: 1px solid #d9d9d9; font-size: 14px; background: #fff;}

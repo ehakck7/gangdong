@@ -147,7 +147,7 @@ var bannernum=0;
 var btime;
 
 function bannerprev(){
-	var bimgul=document.getElementById('b-imgul');
+	var bimgul=document.getElementById('b-img-list');
 	var bimgli=bimgul.getElementsByTagName('li');
 
 	bannernum--
@@ -181,7 +181,7 @@ function bannerplay(){
 }
 
 function bannernext(){
-	var bimgul=document.getElementById('b-imgul');
+	var bimgul=document.getElementById('b-img-list');
 	var bimgli=bimgul.getElementsByTagName('li');
 
 	bannernum++

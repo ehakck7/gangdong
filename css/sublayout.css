@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#container{overflow: hidden; position: relative; width: 1200px; margin: 30px auto;}
+.container{overflow: hidden; position: relative; width: 1200px; margin: 30px auto;}
 
 /* lnb */
 .lnb{float: left; width: 255px; margin-right: 15px;}
@@ -21,11 +21,11 @@
 .lnb-list .lnb-on > a{width: 225px; border-right: none; border-left: none; color: #fff; background: url(../images/lnb-btn.png) no-repeat 216px 23px #ff9000;}
 .lnb-list .lnb-on > .sublnb-list{display: block;}
 
-.contentwrap{float: left; width: 930px;}
+.content-wrap{float: left; width: 930px;}
 /* content-top */
 .content-top{width: 870px; height: 85px; padding: 70px 0 15px 60px; background: url(../images/sub-title-bg.png) no-repeat 0 0;}
 .content-top h2{margin-bottom: 30px; font-size: 32px; color: #ff9000;}
-.content-topul{overflow: hidden;}
-.content-topul li{float: left; padding-left: 15px; background: url(../images/sub-top-btn.png) no-repeat 5px 4px;}
-.content-topul li:first-child{padding-left: 18px; background: url(../images/home.png) no-repeat 0 0;}
-.content-topul li a{display: block; font-size: 13px;}
+.content-top-list{overflow: hidden;}
+.content-top-list li{float: left; padding-left: 15px; background: url(../images/sub-top-btn.png) no-repeat 5px 4px;}
+.content-top-list li:first-child{padding-left: 18px; background: url(../images/home.png) no-repeat 0 0;}
+.content-top-list li a{display: block; font-size: 13px;}

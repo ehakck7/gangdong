@@ -4,45 +4,29 @@
 .header{overflow: hidden; width: 1140px; height: 145px; margin: 0 auto; padding: 30px 30px 0 30px;}
 .header h1{float: left; margin-right: 135px;}
 
-.searchfrm{position: relative; float: left; width: 390px; height: 50px; padding-left:20px; line-height: 50px; background: url(../images/search-bg.png) no-repeat 0 0;}
-.searchfrm select{height: 20px; font-size: 14px; border: none; background: none;}
+.search-frm{position: relative; float: left; width: 390px; height: 50px; padding-left:20px; line-height: 50px; background: url(../images/search-bg.png) no-repeat 0 0;}
+.search-frm select{height: 20px; font-size: 14px; border: none; background: none;}
 input[type="text"]{width: 240px; height: 20px; border: none; font-size: 14px; line-height: 20px; background: none;}
 
-.loginul{float: right; line-height: 50px; font-weight: bold;}
-.loginul li{float: left;}
-.loginul li:first-child{margin-right: 35px;}
+.login-list{float: right; line-height: 50px; font-weight: bold;}
+.login-list li{float: left;}
+.login-list li:first-child{margin-right: 35px;}
 
 /* gnb */
-#gnb{position: absolute; top: 110px; left: 0; width: 100%; height: 63px; border-top: 1px solid #959595; border-bottom: 1px solid #959595; z-index: 10;}
-.gnbmenu{width: 1200px; margin: 0 auto;}
-.gnbmenu > li{float: left; text-align: center;}
-.gnbmenu > li > a{display: block; width: 150px; height: 27px; padding: 18px 0; line-height: 27px;}
-.gnbmenu > li > a:hover,
-.gnbmenu > li > a:active,
-.gnbmenu > li > a:focus{height: 25px; border-bottom: 2px solid #ff9000; text-decoration: none; color: #ff9000;}
+.gnb{position: absolute; top: 110px; left: 0; width: 100%; height: 63px; border-top: 1px solid #959595; border-bottom: 1px solid #959595; z-index: 10;}
+.gnb-menu{width: 1200px; margin: 0 auto;}
+.gnb-menu > li{float: left; text-align: center;}
+.gnb-menu > li > a{display: block; width: 150px; height: 27px; padding: 18px 0; line-height: 27px;}
+.gnb-menu > li > a:hover,
+.gnb-menu > li > a:active,
+.gnb-menu > li > a:focus{height: 25px; border-bottom: 2px solid #ff9000; text-decoration: none; color: #ff9000;}
 
-.submenu{display: none; height: 330px; margin-top: 1px; border-right: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
-.gnbmenu .sub1 .submenu{width: 148px; border-left: 1px solid #d9d9d9;}
-.submenu li a{display: block; width: 149px; line-height: 2.5; font-size: 13px;}
-.submenu li a:hover,
-.submenu li a:active,
-.submenu li a:focus{color: #ff9000;}
+.sub-menu{display: none; height: 330px; margin-top: 1px; border-right: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
+.sub-menu li a{display: block; width: 149px; line-height: 2.5; font-size: 13px;}
+.sub-menu li a:hover,
+.sub-menu li a:active,
+.sub-menu li a:focus{color: #ff9000;}
 
 /* hover시 효과 */
-.gnbmenu .sub1:hover .submenu,
-.gnbmenu .sub2:hover .submenu,
-.gnbmenu .sub3:hover .submenu,
-.gnbmenu .sub4:hover .submenu,
-.gnbmenu .sub5:hover .submenu,
-.gnbmenu .sub6:hover .submenu,
-.gnbmenu .sub7:hover .submenu,
-.gnbmenu .sub8:hover .submenu{background: #f1f1f1;}
-
-.gnbmenu .sub1:hover > a,
-.gnbmenu .sub2:hover > a,
-.gnbmenu .sub3:hover > a,
-.gnbmenu .sub4:hover > a,
-.gnbmenu .sub5:hover > a,
-.gnbmenu .sub6:hover > a,
-.gnbmenu .sub7:hover > a,
-.gnbmenu .sub8:hover > a{height: 25px; border-bottom: 2px solid #ff9000; text-decoration: none; color: #ff9000;}
+.gnb-menu > li:hover .sub-menu{background: #f1f1f1;}
+.gnb-menu > li:hover > a{height: 25px; border-bottom: 2px solid #ff9000; text-decoration: none; color: #ff9000;}

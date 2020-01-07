@@ -8,11 +8,11 @@
 .content{width: 810px; padding: 30px 60px; background: #fafafa;}
 /* contfrm */
 .contfrm{width: 790px; height: 38px; margin-bottom: 30px; padding-right: 20px; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; background: #fff;}
-.totalsearchfrm{font-size: 14px; text-align: right; line-height: 38px;}
-.totalsearchfrm select{width: 105px; height: 20px;}
-.totalsearchfrm .name{width: 70px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
-.totalsearchfrm .work{width: 125px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
-.totalsearchfrm .totalsearch{width: 70px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
+.totalsearch-frm{font-size: 14px; text-align: right; line-height: 38px;}
+.totalsearch-frm select{width: 105px; height: 20px;}
+.totalsearch-frm .name{width: 70px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.totalsearch-frm .work{width: 125px; height: 18px; padding-left: 3px; border: 1px solid #d9d9d9; font-size: 12px;}
+.totalsearch-frm .totalsearch{width: 70px; height: 20px; border: none; font-size: 14px; color: #fff; background: #ff9000; cursor: pointer;}
 
 /* conttable */
 .conttable{width: 810px;}

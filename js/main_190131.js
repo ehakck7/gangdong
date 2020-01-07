@@ -5,7 +5,7 @@ var mslide;
 var mbtn1;
 var mbtn2;
 var mcircle;
-var mtitme;
+var mtime;
 
 function select(num){
 	if(currentnum!=num){
@@ -145,7 +145,6 @@ function slidemove(){
 var bannerwidth=145;
 var bannernum=0;
 var btime;
-var bannerbtn;
 
 function bannerprev(){
 	var bimgul=document.getElementById('b-imgul');

@@ -30,17 +30,17 @@
 .quickmenu{overflow: hidden; width: 1200px; height: 140px; margin: 0 auto;}
 .quickmenu .icon1{float: left; width: 120px; height: 140px; padding-top: 65px; line-height: 1.2; text-align: center; color: #fff; background: url(../images/favorites1.png) no-repeat 45px 26px #ff9000;}
 
-.quickmenuul{overflow: hidden; width: 1080px; text-align: center;}
-.quickmenuul li{float: left; width: 120px; height: 140px; margin-left: 15px;}
-.quickmenuul li a{display: block; padding-top: 85px; line-height: 1.2; color: #fff; background: url(../images/favorites.png) no-repeat;}
-.quickmenuul li .icon2{background-position: 36px 26px;}
-.quickmenuul li .icon3{background-position: -77px 26px;}
-.quickmenuul li .icon4{background-position: -190px 26px;}
-.quickmenuul li .icon5{background-position: -303px 26px;}
-.quickmenuul li .icon6{background-position: -416px 26px;}
-.quickmenuul li .icon7{background-position: -529px 26px;}
-.quickmenuul li .icon8{background-position: -642px 26px;}
-.quickmenuul li .icon9{background-position: -755px 26px;}
+.quickmenu-list{overflow: hidden; width: 1080px; text-align: center;}
+.quickmenu-list li{float: left; width: 120px; height: 140px; margin-left: 15px;}
+.quickmenu-list li a{display: block; padding-top: 85px; line-height: 1.2; color: #fff; background: url(../images/favorites.png) no-repeat;}
+.quickmenu-list li .icon2{background-position: 36px 26px;}
+.quickmenu-list li .icon3{background-position: -77px 26px;}
+.quickmenu-list li .icon4{background-position: -190px 26px;}
+.quickmenu-list li .icon5{background-position: -303px 26px;}
+.quickmenu-list li .icon6{background-position: -416px 26px;}
+.quickmenu-list li .icon7{background-position: -529px 26px;}
+.quickmenu-list li .icon8{background-position: -642px 26px;}
+.quickmenu-list li .icon9{background-position: -755px 26px;}
 
 /* content */
 .content{overflow: hidden; width: 1200px; margin: 0 auto;}
@@ -109,7 +109,7 @@
 .cont-list{float: left; margin-left: 15px;}
 .cont-listm0{margin-left: 0;}
 .cont-title{width: 390px; height: 60px; line-height: 60px; font-size: 28px; text-align: center; color: #fff; background: #6a6a6a;}
-.cont-sublistwrap{width: 330px; height: 325px; padding: 45px 30px;}
+.cont-sublist-wrap{width: 330px; height: 325px; padding: 45px 30px;}
 
 .cont-sublist{float: left; width: 165px; height: 325px;}
 .cont-sublist dt{width: 120px; height: 39px; margin-bottom: 10px; padding-left: 35px; border-bottom: 1px solid #d9d9d9; background: url(../images/link-icon.gif) no-repeat;} /* w165 */

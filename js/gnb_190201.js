@@ -19,8 +19,8 @@ getElementsByClassNameCompatible = function(className) {
 }
 
 function gnbdepth(){
-	var gnb = document.getElementById('gnbmenu')
-	var submenu = getElementsByClassNameCompatible('submenu')
+	var gnb = document.getElementById('gnb-menu')
+	var submenu = getElementsByClassNameCompatible('sub-menu')
 
 	for(var i = 0; i < gnb.children.length; i++){
 		gnb.children[i].onmouseover=function(){
